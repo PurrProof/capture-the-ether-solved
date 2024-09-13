@@ -25,3 +25,4 @@ cast call -i -r $RPC_NODE_URL $ADDRESS $FUNCTION_ID
 
 ### 0. Warmup -> Deploy [Level](https://capturetheether.com/challenges/warmup/deploy/), solution: [test](test/00-deploy.ts)
 
+### 1. Warmup -> Call me [Level](https://capturetheether.com/challenges/warmup/call-me/), solution: [test](test/01-callme.ts)
