@@ -25,30 +25,35 @@ cast call -i -r $RPC_NODE_URL $ADDRESS $FUNCTION_ID
 
 ### 0. Warmup -> Deploy [Level](https://capturetheether.com/challenges/warmup/deploy/),
 
-- [contract](contracts/warmup/Deploy.sol)
+- [challenge](contracts/warmup/Deploy.sol)
 - [solution](test/00-deploy.ts)
 
 ### 1. Warmup -> Call me [Level](https://capturetheether.com/challenges/warmup/call-me/)
 
-- [contract](contracts/warmup/CallMe.sol)
+- [challenge](contracts/warmup/CallMe.sol)
 - [solution](test/01-callme.ts)
 
 ### 2. Warmup -> Choose a nickname [Level](https://capturetheether.com/challenges/warmup/nickname/)
 
-- [contract](contracts/warmup/Nickname.sol)
+- [challenge](contracts/warmup/Nickname.sol)
 - [solution](test/02-nickname.ts)
 
 ### 3. Lotteries -> Guess the number [Level](https://capturetheether.com/challenges/lotteries/guess-the-number/)
 
-- [contract](contracts/lotteries/GuessTheNumber.sol)
+- [challenge](contracts/lotteries/GuessTheNumber.sol)
 - [solution](test/03-guess-the-number.ts)
 
 ### 4. Lotteries -> Guess the secret number [Level](https://capturetheether.com/challenges/lotteries/guess-the-secret-number/)
 
-- [contract](contracts/lotteries/GuessTheSecretNumber.sol)
+- [challenge](contracts/lotteries/GuessTheSecretNumber.sol)
 - [solution](test/04-guess-the-secret-number.ts)
 
 ### 5. Lotteries -> Guess the random number [Level](https://capturetheether.com/challenges/lotteries/guess-the-random-number/)
 
-- [contract](contracts/lotteries/GuessTheRandomNumber.sol)
+- [challenge](contracts/lotteries/GuessTheRandomNumber.sol)
 - [solution](test/05-guess-the-random-number.ts)
+
+### 6. Lotteries -> Guess the new number [Level](https://capturetheether.com/challenges/lotteries/guess-the-new-number/)
+
+- [challenge](contracts/lotteries/GuessTheNewNumber.sol)
+- solution: [contract](contracts/lotteries/GuessTheNewNumberSolution.sol), [test](test/06-guess-the-new-number.ts),
