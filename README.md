@@ -56,4 +56,9 @@ cast call -i -r $RPC_NODE_URL $ADDRESS $FUNCTION_ID
 ### 6. Lotteries -> Guess the new number [Level](https://capturetheether.com/challenges/lotteries/guess-the-new-number/)
 
 - [challenge](contracts/lotteries/GuessTheNewNumber.sol)
-- solution: [contract](contracts/lotteries/GuessTheNewNumberSolution.sol), [test](test/06-guess-the-new-number.ts),
+- solution: [contract](contracts/lotteries/GuessTheNewNumberSolution.sol), [test](test/06-guess-the-new-number.ts)
+
+### 7. Lotteries -> Predict the future [Level](https://capturetheether.com/challenges/lotteries/predict-the-future/)
+
+- [challenge](contracts/lotteries/PredictTheFuture.sol)
+- solution: [contract](contracts/lotteries/PredictTheFutureSolution.sol), [test](test/07-predict-the-future.ts)
