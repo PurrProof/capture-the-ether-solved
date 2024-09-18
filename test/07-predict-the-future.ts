@@ -1,7 +1,8 @@
 import { SignerWithAddress as HardhatEthersSigner } from "@nomicfoundation/hardhat-ethers/signers";
 import { mine } from "@nomicfoundation/hardhat-network-helpers";
 import { expect } from "chai";
-import hre from "hardhat";
+import hre, { network, userConfig } from "hardhat";
+import { HardhatNetworkConfig } from "hardhat/types";
 
 import { PredictTheFutureChallenge, PredictTheFutureChallenge__factory } from "../typechain-types";
 import { PredictTheFutureSolution, PredictTheFutureSolution__factory } from "../typechain-types";
@@ -32,13 +33,16 @@ describe("7. Lotteries -> Predict the future", function () {
     // probability is 1/10
     let isComplete = false;
     while (!isComplete) {
-      await mine(1);
+      if (network.name == "hardhat" && !(network.config as HardhatNetworkConfig).mining.auto) {
+        await mine();
+      }
 
       try {
         //tx could be reverted
-        const tx = await solution.settle({ gasLimit: 500_000 });
+        const tx = await solution.settle();
         await tx.wait();
       } catch (e) {
+        //console.log(e.message);
         //console.log("tx reverted, wait next block");
         continue;
       }
