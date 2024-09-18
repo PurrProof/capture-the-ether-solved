@@ -4,7 +4,7 @@ import hre from "hardhat";
 
 import { GuessTheNumberChallenge, GuessTheNumberChallenge__factory } from "../typechain-types";
 
-describe("3. Lotteries -> Guess the number  ", function () {
+describe("3. Lotteries -> Guess the number", function () {
   let owner: HardhatEthersSigner;
   let player: HardhatEthersSigner;
   let level: GuessTheNumberChallenge;

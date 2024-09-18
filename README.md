@@ -62,3 +62,8 @@ cast call -i -r $RPC_NODE_URL $ADDRESS $FUNCTION_ID
 
 - [challenge](contracts/lotteries/PredictTheFuture.sol)
 - solution: [contract](contracts/lotteries/PredictTheFutureSolution.sol), [test](test/07-predict-the-future.ts)
+
+### 8. Lotteries -> Predict the block hash [Level](https://capturetheether.com/challenges/lotteries/predict-the-block-hash/)
+
+- [challenge](contracts/lotteries/PredictTheBlockHash.sol)
+- solution: [test](test/08-predict-the-block-hash.ts)
