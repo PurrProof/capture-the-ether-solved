@@ -67,3 +67,8 @@ cast call -i -r $RPC_NODE_URL $ADDRESS $FUNCTION_ID
 
 - [challenge](contracts/lotteries/PredictTheBlockHash.sol)
 - solution: [test](test/08-predict-the-block-hash.ts)
+
+### 9. Math -> Token Sale [Level](https://capturetheether.com/challenges/math/token-sale/)
+
+- [challenge](contracts/math/TokenSale.sol)
+- solution: [test](test/09-token-sale.ts)
