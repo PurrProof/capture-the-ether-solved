@@ -72,3 +72,8 @@ cast call -i -r $RPC_NODE_URL $ADDRESS $FUNCTION_ID
 
 - [challenge](contracts/math/TokenSale.sol)
 - solution: [test](test/09-token-sale.ts)
+
+### 10. Math -> Token Whale [Level](https://capturetheether.com/challenges/math/token-whale/)
+
+- [challenge](contracts/math/TokenWhale.sol)
+- solution: [test](test/10-token-whale.ts)
