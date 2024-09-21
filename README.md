@@ -87,3 +87,8 @@ cast call -i -r $RPC_NODE_URL $ADDRESS $FUNCTION_ID
 
 - level: [contract](contracts/math/MappingChallenge.sol)
 - solution: [test](test/12-mapping.ts)
+
+### 13. Math -> [Donation](https://capturetheether.com/challenges/math/donation/)
+
+- level: [contract](contracts/math/Donation.sol)
+- solution: [test](test/13-donation.ts)
