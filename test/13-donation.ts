@@ -4,7 +4,7 @@ import hre from "hardhat";
 
 import { DonationChallenge, DonationChallenge__factory } from "../typechain-types";
 
-describe("12. Math -> Donation", function () {
+describe("13. Math -> Donation", function () {
   let owner: HardhatEthersSigner;
   let player: HardhatEthersSigner;
   let level: DonationChallenge;
